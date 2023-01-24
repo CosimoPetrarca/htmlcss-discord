@@ -6,43 +6,12 @@ body{
     box-sizing: border-box;
 }
 
- /* <!-- Debug --> */
-
-
-.debug .contenitore3{
-    background-color: white;
-    height: 500px;
-}
-
-.debug .contenitore4{
-    background-color: #d3d3d3;
-    height: 500px;
-}
-
-.debug .contenitore5{
-    background-color: #d3d3d3;
-    height: 650px;
-}
-
-.debug .contenitore6{
-    background-color: #23272a;
-    height: 500px;
-}
-
-.debug .contenitorefooter{
-    background-color: #23272a;
-    height: 100px;
-    border-width: 1px 0px 1px 0px;
-    border-style: solid;
-    border-color: white;
-}
+/* <!-- Header --> */
 
 .box{
     margin: 10px 0;
     padding: 5px;
 }
-
-/* <!-- Header --> */
 
 header{
     background-image: url(../img/jumbo.png);
@@ -51,11 +20,11 @@ header{
 }
 
 
-.contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore5, .contenitore6, .contenitorefooter{
+.contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore6, .contenitorefooter{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    
     
 }
 ul{
@@ -117,7 +86,7 @@ h2, h3, p{
     
 }
 
-.bottone1, .bottone2{
+.bottone1, .bottone2, .bottone3{
     font-size: 20px;
     border-radius: 20px;
     padding: 10px;
@@ -134,6 +103,7 @@ h2, h3, p{
 .bottone2{
     background-color: black;
     color: white;
+    
 }
 
 .boxrosa{
@@ -144,6 +114,7 @@ h2, h3, p{
 }
 
 /* <!-- Main --> */
+
 
 .boxmain1, .boxmain2, .boxmain3{
     height: 400px;
@@ -167,25 +138,43 @@ h2, h3, p{
     height: 400px;
     width: 400px;
     text-align: left;
-    }
+}
+
+.contenitore5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.contenitore4, .contenitore5{
+    background-color: #f6f6f6;
+}
 
 h2{
-        font-size:40px;
+    font-size:40px;
 }
 
 p{
     font-size: 17px;
+   
 }
 
-
+.bottone3{
+    background-color: #7289da;
+    text-align: center;
+    color: white;
+}
 
 .boxverde{
-    background-color: #228b22;
-    border: 1px dashed black;
-    height: 600px;
-    width: 720px;
-
+    background-image: url(../img/item4-big.svg);
+    height: 850px;
+    width: 1000px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
 }
+
 
 /* <!-- Footer --> */
 
