@@ -8,15 +8,6 @@ body{
 
  /* <!-- Debug --> */
 
-.debug .contenitore1{
-
-    background-color: #add8e6;
-}
-
-.debug .contenitore2{
-    background-color: #00008b;
-    height: 400px;
-}
 
 .debug .contenitore3{
     background-color: white;
@@ -47,13 +38,18 @@ body{
 }
 
 .box{
-    border: 1px dashed black;
-    background-color: #daa520;
     margin: 10px 0;
     padding: 5px;
 }
 
 /* <!-- Header --> */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+}
+
 
 .contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore5, .contenitore6, .contenitorefooter{
     display: flex;
@@ -61,34 +57,98 @@ body{
     align-items: center;
     
 }
-
-.boxlogo{
-    width: 120px;
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
     
 }
 
-.boxlink{
-    width: 520px;
-    text-align: center;
+li > a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+.boxlogo{
+    padding-right: 100px;
+   
 }
 
 .boxlogin{
     width: 120px;
     text-align: right;
+    padding-left: 100px;
+
+}
+
+.boxlogin > a{
+
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h2, h3, p{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-header{
+    font-size: 30px;
+}
+
+.text-header, p{
+
+    color: white;
+    text-align: center;
+}
+
+.bottoniheader{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.bottone1, .bottone2{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.bottone1{
+    
+    background-color: white;
+
+    	
+
+   
+}
+
+.bottone2{
+    background-color: black;
+    color: white;
 }
 
 .boxrosa{
-    background-color: #ee82ee;
+    text-align: center;
     height: 300px;
     width: 600px;
-    border: 1px dashed black;
-   
+    
 }
 
 /* <!-- Main --> */
 
 .boxblu{
-    background-color: #1e90ff;
+    background-image: url();
     height: 400px;
     width: 600px;
     border: 1px dashed black;
