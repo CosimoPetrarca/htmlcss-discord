@@ -55,6 +55,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px;
     
 }
 ul{
@@ -101,7 +102,7 @@ h2, h3, p{
     font-size: 30px;
 }
 
-.text-header, p{
+ .text-header, .p-header{
 
     color: white;
     text-align: center;
@@ -128,9 +129,6 @@ h2, h3, p{
     
     background-color: white;
 
-    	
-
-   
 }
 
 .bottone2{
@@ -147,21 +145,39 @@ h2, h3, p{
 
 /* <!-- Main --> */
 
-.boxblu{
-    background-image: url();
+.boxmain1, .boxmain2, .boxmain3{
     height: 400px;
     width: 600px;
-    border: 1px dashed black;
+}
 
+.boxmain1{
+    background-image: url(../img/item1.svg);
+}
+
+.boxmain2{
+    background-image: url(../img/item2.svg);
+}
+
+.boxmain3{
+    background-image: url(../img/item3.svg);
 }
 
 .boxpink{
-    background-color: #ffc0cb;
+    padding-left: 100px;
     height: 400px;
     width: 400px;
-    border: 1px dashed black;
+    text-align: left;
+    }
 
+h2{
+        font-size:40px;
 }
+
+p{
+    font-size: 17px;
+}
+
+
 
 .boxverde{
     background-color: #228b22;
