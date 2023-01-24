@@ -19,42 +19,36 @@ header{
     background-repeat: no-repeat;
 }
 
-
 .contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore6, .contenitorefooter{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    padding-bottom: 50px;
 }
+
 ul{
     display: flex;
     list-style-type: none;
     align-items: center;
-    
 }
 
 li > a{
     text-decoration: none;
     color: white;
     padding: 20px;
-
 }
 
 .boxlogo{
     padding-right: 100px;
-   
 }
 
 .boxlogin{
     width: 120px;
     text-align: right;
     padding-left: 100px;
-
 }
 
 .boxlogin > a{
-
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -63,7 +57,6 @@ li > a{
 }
 
 h2, h3, p{
-
     font-family: 'Roboto', sans-serif;
 }
 
@@ -71,19 +64,15 @@ h2, h3, p{
     font-size: 30px;
 }
 
- .text-header, .p-header{
-
+.text-header, .p-header{
     color: white;
     text-align: center;
 }
 
 .bottoniheader{
-
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
 .bottone1, .bottone2, .bottone3, .bottonefooter{
@@ -91,30 +80,24 @@ h2, h3, p{
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
-
 }
 
 .bottone1{
-    
     background-color: white;
-
 }
 
 .bottone2{
     background-color: black;
     color: white;
-    
 }
 
 .boxrosa{
     text-align: center;
     height: 300px;
     width: 600px;
-    
 }
 
 /* <!-- Main --> */
-
 
 .boxmain1, .boxmain2, .boxmain3{
     height: 400px;
@@ -145,8 +128,8 @@ h2, h3, p{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
 }
+
 .contenitore4, .contenitore5{
     background-color: #f6f6f6;
 }
@@ -157,7 +140,6 @@ h2{
 
 p{
     font-size: 17px;
-   
 }
 
 .bottone3{
@@ -174,7 +156,6 @@ p{
     background-repeat: no-repeat;
     text-align: center;
 }
-
 
 /* <!-- Footer --> */
 
@@ -199,24 +180,20 @@ h4{
 .ita{
     width: 30px;
     height: 20px;
-    
 }
 
 .box1{
     width: 240px;
     height: 400px;
-
 }
 
 .icon{
     color: white;
     padding-top: 15px;
-    
 }
 
 .distanza{
     margin: 10px;
-
 }
 
 .box2 h3{
@@ -225,8 +202,6 @@ h4{
 
 .box2 h4{
     margin: 15px;
-    
-
 }
 
 .box2{
