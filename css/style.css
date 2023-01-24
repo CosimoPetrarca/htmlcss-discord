@@ -86,7 +86,7 @@ h2, h3, p{
     
 }
 
-.bottone1, .bottone2, .bottone3{
+.bottone1, .bottone2, .bottone3, .bottonefooter{
     font-size: 20px;
     border-radius: 20px;
     padding: 10px;
@@ -178,38 +178,78 @@ p{
 
 /* <!-- Footer --> */
 
+.contenitore6, .contenitorefooter{
+    background-color: #23272a;
+}
+
+.lingua{
+    display: flex;
+    align-items: center;
+}
+
+.box1 h2{
+    color:#7289da ;
+}
+
+h4{
+    color: white;
+    margin: 5px;
+}
+
+.ita{
+    width: 30px;
+    height: 20px;
+    
+}
+
 .box1{
-    background-color: #f08080;
     width: 240px;
     height: 400px;
-    border: 1px dashed black;
+
+}
+
+.icon{
+    color: white;
+    padding-top: 15px;
+    
+}
+
+.distanza{
+    margin: 10px;
+
+}
+
+.box2 h3{
+    color:#7289da ;
+}
+
+.box2 h4{
+    margin: 15px;
+    
 
 }
 
 .box2{
-    background-color: #20b2aa;
     width: 120px;
     height: 400px;
-    border: 1px dashed white;
-
+    padding-top: 50px;
+    padding-right: 40px;
 }
 
 .contenitorebottoni{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7fffd4;
-    width: 720px;
+    width: 900px;
     height: 50px;
     margin-top: 50px;
-    
+    margin-bottom: 50px;
+    border-top:1px solid #7289da;
 }
 
-.boxlogofooter, .boxbottonefooter{
-
-    background-color: #ffb6c1;
-    border: 1px dashed black;
-    
+.bottonefooter{
+    background-color:#7289da ;
+    color: white;
 }
 
 
