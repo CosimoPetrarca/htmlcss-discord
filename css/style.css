@@ -1,6 +1,6 @@
 /* <!-- Reset --> */
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,47 +8,52 @@ body{
 
 /* <!-- Header --> */
 
-.box{
+.box {
     margin: 10px 0;
     padding: 5px;
 }
 
-header{
+header {
     background-image: url(../img/jumbo.png);
-    background-size: 100% 100% ;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-.contenitore1, .contenitore2, .contenitore3, .contenitore4, .contenitore6, .contenitorefooter{
+.contenitore1,
+.contenitore2,
+.contenitore3,
+.contenitore4,
+.contenitore6,
+.contenitorefooter {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
     align-items: center;
 }
 
-li > a{
+li>a {
     text-decoration: none;
     color: white;
     padding: 20px;
 }
 
-.boxlogo{
+.boxlogo {
     padding-right: 100px;
 }
 
-.boxlogin{
+.boxlogin {
     width: 120px;
     text-align: right;
     padding-left: 100px;
 }
 
-.boxlogin > a{
+.boxlogin>a {
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -56,42 +61,48 @@ li > a{
     text-decoration: none;
 }
 
-h2, h3, p{
+h2,
+h3,
+p {
     font-family: 'Roboto', sans-serif;
 }
 
-.text-header{
+.text-header {
     font-size: 30px;
 }
 
-.text-header, .p-header{
+.text-header,
+.p-header {
     color: white;
     text-align: center;
 }
 
-.bottoniheader{
+.bottoniheader {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bottone1, .bottone2, .bottone3, .bottonefooter{
+.bottone1,
+.bottone2,
+.bottone3,
+.bottonefooter {
     font-size: 20px;
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
 }
 
-.bottone1{
+.bottone1 {
     background-color: white;
 }
 
-.bottone2{
+.bottone2 {
     background-color: black;
     color: white;
 }
 
-.boxrosa{
+.boxrosa {
     text-align: center;
     height: 300px;
     width: 600px;
@@ -99,56 +110,59 @@ h2, h3, p{
 
 /* <!-- Main --> */
 
-.boxmain1, .boxmain2, .boxmain3{
+.boxmain1,
+.boxmain2,
+.boxmain3 {
     height: 400px;
     width: 600px;
 }
 
-.boxmain1{
+.boxmain1 {
     background-image: url(../img/item1.svg);
 }
 
-.boxmain2{
+.boxmain2 {
     background-image: url(../img/item2.svg);
 }
 
-.boxmain3{
+.boxmain3 {
     background-image: url(../img/item3.svg);
 }
 
-.boxpink{
+.boxpink {
     padding-left: 100px;
     height: 400px;
     width: 400px;
     text-align: left;
 }
 
-.contenitore5{
+.contenitore5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.contenitore4, .contenitore5{
+.contenitore4,
+.contenitore5 {
     background-color: #f6f6f6;
 }
 
-h2{
-    font-size:40px;
+h2 {
+    font-size: 40px;
 }
 
-p{
+p {
     font-size: 17px;
 }
 
-.bottone3{
+.bottone3 {
     background-color: #7289da;
     text-align: center;
     color: white;
 }
 
-.boxverde{
+.boxverde {
     background-image: url(../img/item4-big.svg);
     height: 850px;
     width: 1000px;
@@ -159,59 +173,60 @@ p{
 
 /* <!-- Footer --> */
 
-.contenitore6, .contenitorefooter{
+.contenitore6,
+.contenitorefooter {
     background-color: #23272a;
 }
 
-.lingua{
+.lingua {
     display: flex;
     align-items: center;
 }
 
-.box1 h2{
-    color:#7289da ;
+.box1 h2 {
+    color: #7289da;
 }
 
-h4{
+h4 {
     color: white;
     margin: 5px;
 }
 
-.ita{
+.ita {
     width: 30px;
     height: 20px;
 }
 
-.box1{
+.box1 {
     width: 240px;
     height: 400px;
 }
 
-.icon{
+.icon {
     color: white;
     padding-top: 15px;
 }
 
-.distanza{
+.distanza {
     margin: 10px;
 }
 
-.box2 h3{
-    color:#7289da ;
+.box2 h3 {
+    color: #7289da;
 }
 
-.box2 h4{
+.box2 h4 {
     margin: 15px;
 }
 
-.box2{
+.box2 {
     width: 120px;
     height: 400px;
     padding-top: 50px;
     padding-right: 40px;
 }
 
-.contenitorebottoni{
+.contenitorebottoni {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -219,15 +234,10 @@ h4{
     height: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-top:1px solid #7289da;
+    border-top: 1px solid #7289da;
 }
 
-.bottonefooter{
-    background-color:#7289da ;
+.bottonefooter {
+    background-color: #7289da;
     color: white;
 }
-
-
-
-
-
